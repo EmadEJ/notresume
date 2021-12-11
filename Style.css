@@ -1,0 +1,101 @@
+body {
+	margin: 20px;
+	direction: rtl;
+	background-color: beige;
+	font-size:18pt;
+}
+
+.topbar{
+	overflow: hidden;
+	background-color: cadetblue;
+}
+
+.topbar h{
+	padding-top: 3px;
+	padding-left: 20px;
+	float: left;
+	font-family: B yekan;
+	color: whitesmoke;
+}
+
+.topbar a{
+	float: right;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font: B Homa;
+	padding: 12px 18px; 
+}
+
+.topbar a:hover{
+	background-color:rgb(82, 144, 170);
+	color: white;
+	font-size: 18px;
+}
+
+.topbar a.here{
+	background-color: SteelBlue;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+footer {
+	direction: ltr;
+	text-align: center;
+	background-color: rgba(47, 79, 79, 0.911);
+	color: white;
+	border-style: solid;
+	border-color: cadetblue;
+	border-width: 4px;
+	font-family: B nazanin, Arial;
+	font-size: 16px;
+	padding: 4px;
+}
+
+dl {
+	border-radius: 20px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-width: 5px;
+	border-color: steelblue;
+	background-color: whitesmoke;
+	padding: 2%;
+}
+
+dl dt{
+	font-size: 40px;
+	font-family: B koodak;
+	color: steelblue;
+	border-top-style: solid;
+}
+
+dl dt:first-child{
+	border-top-style: none;
+}
+
+dl dd{
+	font-family: B yekan;
+	padding-bottom: 5px;
+}
+
+ul { 
+	border-radius: 20px;
+	border-right-style: solid;
+	border-width: 10px;
+	border-color: steelblue;
+	background-color: whitesmoke;
+	padding: 2%;
+	font-family: B yekan;
+}
+
+form {
+	padding: 4%;
+	font-family: b koodak;
+	font-size: 20px;
+}
+
+form table{
+	font-family: b koodak;
+	font-size: 20px;
+}
